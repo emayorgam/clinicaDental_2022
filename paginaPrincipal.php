@@ -8,7 +8,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;500&family=Montserrat:wght@300;400;500&family=Cormorant+Garamond:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;500&family=Montserrat:wght@300;400;500&family=Cormorant+Garamond:wght@300;400;900;&display=swap" rel="stylesheet">
 
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="css/styles.css">
@@ -46,7 +46,7 @@
 
 
   
-   <!--Agendar cita-->
+   <!--Agendar cita -->
    <section id="agendar-cita"> 
     <div>
         <h1>AGENDAR CITA</h1>
@@ -132,7 +132,7 @@
         </div>
     </section>
 
-    <!-- Registrarse -->
+    <!--Registrarse-->
     <section id="registrarse">
       <div>
         <h1>REGISTRARSE</h1>
@@ -185,24 +185,27 @@
 
     <div>
 
-    <h1>Servicios</h1>
+    <h1>SERVICIOS</h1>
 
-    <div class="ortodoncia">
-        <h3>ORTODONCIA</h3>
-        <img src="imagenes/ortodoncia.jpg" alt="ortodoncia">
-    </div>
+<div class="container1-pg5">
+      <div class="ortodoncia div5">
+          <h3 class="servicioNombre1 nombre">ORTODONCIA</h3>
+      </div>
 
-    <div class="limpieza">
-        <h3>LIMPIEZA</h3>
-        <img src="imagenes/limpieza.jpg" alt="limpieza">
-    </div>
+      <div class="limpieza div5">
+          <h3 class="servicioNombre2 nombre">LIMPIEZA</h3>
+      </div>
 
-    <div class="extraccion">
-        <h3>EXTRACCIÓN</h3>
-        <img src="imagenes/extraccion.jpg" alt="extracción">
-    </div>
+      <div class="extraccion div5">
+          <h3 class="servicioNombre3 nombre">EXTRACCIÓN</h3>
+      </div>
 
-    <button type="button">Agendar Cita</button>
+      <div class="botonServicio">
+      <a class="btn1" href="#agendar-cita">AGENDAR CITA</a>
+      </div>
+
+</div>
+
 
 </div>
 
@@ -211,10 +214,12 @@
     <!--Ubicación-->
     <section id="ubicacion"> 
 
-        <div>
+        <div class="container1-pg6">
             <h1>UBICACIÓN</h1>
-            <p>123 Anywhere St., Any City, State, Country 12345</p>
-            <img src="imagenes/mapa.png" alt="mapa">
+            <p class="datosUbicacion">123 Anywhere St., Any City, State, Country 12345</p>
+            <div class= "imagenUbicacion" >
+            <img src="css/imagenes/mapa.png" alt="mapa">
+            </div>
         </div>
 
     </section>
@@ -225,24 +230,25 @@
 
         <div>
         <h1>CONTACTO</h1>
+        
           <div class="container1-pg7">
 
           <div class="div7">
-          <i class="fa-solid fa-phone"></i>
-            <h3>Teléfono</h3>
-            <p>(+506) 1234 5678 </p>
+          <i class="fa-solid fa-phone contacto"></i>
+            <h3 class="contacto">Teléfono</h3>
+            <p class="contacto">(+506) 1234 5678 </p>
           </div>
   
           <div class="div7">
-          <i class="fa-solid fa-envelope"></i>
-            <h3>Correo</h3>
-            <p>clinica@mail.com</p>
+          <i class="fa-solid fa-envelope contacto"></i>
+            <h3 class="contacto">Correo</h3>
+            <p class="contacto">clinica@mail.com</p>
           </div>
   
           <div class="div7">
-          <i class="fa-brands fa-facebook-f"></i>
-            <h3>Facebook</h3>
-            <p>ClinicaCR</p>
+          <i class="fa-brands fa-facebook-f contacto"></i>
+            <h3 class="contacto">Facebook</h3>
+            <p class="contacto">ClinicaCR</p>
           </div>
 
         </div>
