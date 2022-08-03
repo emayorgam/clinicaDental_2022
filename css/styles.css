@@ -48,7 +48,7 @@ img {
   color: #243a73;
   margin: 80px;
   text-decoration: none;
-  font-size: 130%
+  font-weight: 500;
 }
 
 .registrar {
@@ -56,10 +56,6 @@ img {
   font-size: 100%;
 }
 
-.link-registrar {
-  text-decoration: underline;
-  color: #5271ff;
-}
 
 .pg1-titulo {
   font-size: 100px;
@@ -104,216 +100,247 @@ td {
   padding-top: 50px;
 }
 
-/* SECCIÓN INICIAR SESIÓN*/
+  /* SECCIÓN INICIAR SESIÓN*/
 
-.container1-pg3 {
-  background-color:   #bdcadb;
-  width: 30%;
-  height: 350px;
-  margin: 20px auto 20px auto;
-  text-align: center;
+  .container1-pg3 {
+    background-color:   #bdcadb;
+    width: 30%;
+    height: 450px;
+    margin: 20px auto 20px auto;
+    text-align: center;
+  }
+
+  .container2-pg3 {
+    background-color:  #bdcadb;
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    margin: 20px auto 20px auto;
+    padding-top: 30px;
+
+  }
+
+  form {
+    padding-top: 50px;
+  }
+
+  .login-titulo {
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .label-pg3 {
+    padding: 25px;
+  }
+
+  .input-pg3{
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+
+  .elemento{
+    margin: 20px auto;
+  }
+
+  /* SECCIÓN REGISTRARSE */
+
+  .container1-pg4{
+    background-color: #bdcadb;
+    width: 53%;
+    height: 630px;
+    margin: 20px auto 20px auto;
+  }
+
+  .boton-pg4 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  table {
+    margin: 0 auto 0 auto;
+  }
+
+  .registerText {
+    margin-left: 50px
+  }
+
+  .btnLimpiar {
+    margin-left: 42px;
+    margin-bottom: 10px;
+  }
+
+  /* SECCIÓN SERVICIOS */
+
+  .container1-pg5 {
+    text-align: center;
+  }
+
+  .div5 {
+    display: inline-block;
+    margin: 20px;
+  }
+
+  .nombre {
+    font-weight: 400;
+    font-size: 150%;
+  }
+
+  .servicioNombre1 {
+    padding: 145px 78px;
+  }
+
+  .servicioNombre2{
+    padding: 145px 105px;
+  }
+
+  .servicioNombre3{
+    padding: 145px 80px;
+  }
+
+  .ortodoncia {
+    background-image: url("imagenes/ortodoncia.png");
+
+  }
+
+  .limpieza {
+    background-image: url("imagenes/limpieza.png");
+  }
+
+  .extraccion {
+    background-image: url("imagenes/extraccion.png");
+  }
+
+  .botonServicio {
+    margin-top: 60px;
+  }
+
+  /* SECCIÓN UBICACIÓN */
+
+  .datosUbicacion {
+    margin: 50px;
+    font-size: 150%;
+    font-weight: 300;
+  }
+
+  .imagenUbicacion {
+    text-align: center;
+  }
+
+
+  /* SECCION CONTACTO */
+
+  .container1-pg7 {
+    background-color: #bdcadb;
+    width: 100%;
+    height: 200px;
+    margin: 20px auto 100px auto;
+    text-align: center;
+  }
+
+  .div7 {
+    display: inline-block;
+    padding: 40px 80px;
+  }
+
+  .contacto {
+    padding: 10px 30px;
+
+  }
+
+  /* BOTONES */
+
+  /* Botón AGENDAR CITA página principal y servicios*/
+
+  .btn1 {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+    background: #6998ab;
+    padding: 12px 30px 12px 30px;
+    text-decoration: none;
+  }
+
+  .btn1:hover {
+    background: #b1d0e0;
+    text-decoration: none;
+  }
+
+  /* Botón ACEPTAR Y CANCELAR página agendar cita*/
+
+  .btnAceptar {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    background: #6998ab;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    margin-left: 245px;
+    margin-top: 50px;
+  }
+
+  .btnAceptar:hover{
+    background: #b1d0e0;
+    text-decoration: none;
+  }
+
+  .btnCancelar {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    background: #7A4069;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+  }
+
+  .btnCancelar:hover {
+    background: #b0689d;
+    text-decoration: none;
+  }
+
+  /* Botón INGRESAR página iniciar sesión */
+
+
+  .btnIngresar {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    background: #6998ab;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+  }
+
+  .btnIngresar:hover{
+    background: #b1d0e0;
+    text-decoration: none;
+  }
+
+.Botones_adicionales input[type="button"], .Botones_adicionales input[type = "reset"]{
+    border: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-top: 5px;
+    cursor:pointer;
+    color: #243A73;
+    background-color: #BECADB;
 }
-
-.container2-pg3 {
-  background-color:  #bdcadb;
-  width: 30%;
-  height: 50px;
-  text-align: center;
-  margin: 20px auto 20px auto;
-  padding-top: 30px;
-
+.Botones_adicionales{
+    float: left;
 }
-
-form {
-  padding-top: 50px;
+#boton_limpiar{
+    float: left;
+    color: #243A73;
+    background-color: #BECADB;
 }
-
-.login-titulo {
-  text-align: center;
-  margin-top: 70px;
-}
-
-.label-pg3 {
-  padding-bottom: 25px;
-  padding-top: 25px;
-}
-
-.input-pg3{
-  margin-top: 15px;
-  margin-bottom: 50px;
-}
-
-/* SECCIÓN REGISTRARSE */
-
-.container1-pg4{
-  background-color: #bdcadb;
-  width: 53%;
-  height: 470px;
-  margin: 20px auto 20px auto;
-}
-
-.boton-pg4 {
-  padding-top: 70px;
-}
-
-table {
-  margin: 0 auto 0 auto;
-}
-
-/* SECCIÓN SERVICIOS */
-
-.container1-pg5 {
-  text-align: center;
-}
-
-.div5 {
-  display: inline-block;
-  margin: 20px;
-}
-
-.nombre {
-  font-weight: 400;
-  font-size: 150%;
-}
-
-.servicioNombre1 {
-  padding: 145px 78px;
-}
-
-.servicioNombre2{
-  padding: 145px 105px;
-}
-
-.servicioNombre3{
-  padding: 145px 80px;
-}
-
-.ortodoncia {
-  background-image: url("imagenes/ortodoncia.png");
-  
-}
-
-.limpieza {
-  background-image: url("imagenes/limpieza.png");
-}
-
-.extraccion {
-  background-image: url("imagenes/extraccion.png");
-}
-
-.botonServicio {
-  margin-top: 60px;
-}
-
-/* SECCIÓN UBICACIÓN */
-
-.datosUbicacion {
-  margin: 50px;
-  font-size: 150%;
-  font-weight: 300;
-}
-
-.imagenUbicacion {
-  text-align: center;
-}
-
-
-/* SECCION CONTACTO */
-
-.container1-pg7 {
-  background-color: #bdcadb;
-  width: 100%;
-  height: 200px;
-  margin: 20px auto 100px auto;
-  text-align: center;
-}
-
-.div7 {
-  display: inline-block;
-  padding: 40px 80px;
-}
-
-.contacto {
-  padding: 10px 30px;
-
-}
-
-/* BOTONES */
-
-/* Botón AGENDAR CITA página principal y servicios*/
-
-.btn1 {
-  -webkit-border-radius: 60;
-  -moz-border-radius: 60;
-  border-radius: 60px;
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 17px;
-  background: #6998ab;
-  padding: 12px 30px 12px 30px;
-  text-decoration: none;
-}
-
-.btn1:hover {
-  background: #b1d0e0;
-  text-decoration: none;
-}
-
-/* Botón ACEPTAR Y CANCELAR página agendar cita*/
-
-.btnAceptar {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 12px;
-  background: #6998ab;
-  padding: 10px 25px 10px 25px;
-  text-decoration: none;
-  margin-left: 245px;
-  margin-top: 50px;
-}
-
-.btnAceptar:hover{
-  background: #b1d0e0;
-  text-decoration: none;
-}
-
-.btnCancelar {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 12px;
-  background: #7A4069;
-  padding: 10px 25px 10px 25px;
-  text-decoration: none;
-}
-
-.btnCancelar:hover {
-  background: #b0689d;
-  text-decoration: none;
-}
-
-/* Botón INGRESAR página iniciar sesión */
-
-
-.btnIngresar {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 12px;
-  background: #6998ab;
-  padding: 10px 25px 10px 25px;
-  text-decoration: none;
-}
-
-.btnIngresar:hover{
-  background: #b1d0e0;
-  text-decoration: none;
-}
-
