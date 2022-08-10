@@ -13,29 +13,33 @@
         <form action="enviar_contra.php" method="POST">
 
             <div class="elementoA">
-                <label for="usuario">Correo electrónico</label>
-                <input type="text" name="email" value="" placeholder="email" />
+                <label for="usuario">Recuperar Contraseña</label>
+                <input type="text" name="usuario" value="" placeholder="usuario" />
+            </div>
+            <div class="elementoA">
+                <input type="text" name="contra" value="" placeholder="Nueva contraseña" />
             </div>
 
             <div class="elemento" id="ingreso">
-                <input id="ingresar" type="submit" value="Recuperar">
+                <input id="ingresar" type="submit" value="Cambiar">
             </div>
             <div class="Botones_adicionales">
                 <br>
                 <input id="boton_limpiar" type="reset" value="Limpiar">
                 <br>
+                <a href="login.php" id="Link_rcuenta" style="text-decoration: none;">LogIn</a>
+                <br>
                 <p class="login-register-text">No tiene cuenta? <a href="registro.php">Ingrese aqui</a>.</p>
                 <br>
-                <a href="login.php">LogIn</a>
             </div>
         </form>
     </div>
 
     <?php
     try {
-        if (isset($_POST['email']) && !empty($_POST['email'])) {
-            $pass = "contrasena";
-            $mail = $_POST['email'];
+        if (isset($_POST['usuario']) && !empty($_POST['usuario'])) {
+            $pass = $_POST['contra'];
+            $usu = $_POST['usuario'];
 
             //Conexion con la base
             $connection = mysqli_connect("localhost", "root", "", "clinicadentalbd");
@@ -44,22 +48,13 @@
                 die("Connection failed: " . $connection->connect_error);
             }
 
-            $sql = "Update usuarios Set contrasena='$pass' Where correo='$mail'";
+            $sql = "Update usuarios Set contrasena='$pass' Where usuario='$usu'";
 
             if ($connection->query($sql) === TRUE) {
                 echo "usuario modificado correctamente ";
             } else {
                 echo "Error modificando: " . $connection->error;
             }
-
-            $to = $_POST['email'];
-            $from = "From: " . "Clinica Dental";
-            $subject = "Recordatorio de contraseña";
-            $message = "El sistema le asigno la siguiente clave " . $pass;
-
-
-            mail($to, $subject, $message, $from);
-            echo 'Correo enviado satisfactoriamente a' . $_POST['email'];
         } else
             echo 'Informacion incompleta';
     } catch (Exception $e) {
