@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Recuperar Contraseña</title>
-    <link rel="stylesheet" href="../CSS/style_login.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
@@ -14,8 +14,9 @@
 
             <div class="elementoA">
                 <label for="usuario">Recuperar Contraseña</label>
-                <input type="text" name="usuario" value="" placeholder="usuario" />
+                <input type="text" name="usuario" value="" placeholder="Usuario" />
             </div>
+
             <div class="elementoA">
                 <input type="text" name="contra" value="" placeholder="Nueva contraseña" />
             </div>
@@ -23,6 +24,7 @@
             <div class="elemento" id="ingreso">
                 <input id="ingresar" type="submit" value="Cambiar">
             </div>
+        
             <div class="Botones_adicionales">
                 <br>
                 <input id="boton_limpiar" type="reset" value="Limpiar">

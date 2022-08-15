@@ -3,61 +3,56 @@
 <head>
     <meta charset="UTF-8">
 
-    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <title>Registro Clínica Especialidades</title>
 </head>
 <body>   
 
 <h1>Registrese</h1>
-
-
   <div class="container1-pg4">
     <form action="../PHP/conexion_registro.php" method="post">
 
-      <table>
-
+    <table>
         <tr>
-          <td><label>Cédula</label></td>
+          <td><label for="cedula">Cédula</label></td>
           <td><input type="text" name="cedula" placeholder="Cédula..."></td>
         </tr>
 
         <tr>
-          <td><label>Nombre</label></td>
-          <td><input type="text" name="nombre" placeholder="Nombre..."></td>
+          <td><label for="nombre">Nombre</label></td>
+          <td><input type="text"  name="nombre" placeholder="Nombre..."></td>
         </tr>
 
         <tr>
-          <td><label>Apellido Paterno</label></td>
-          <td><input type="text" name="apellidoPaterno" placeholder="Apellido Paterno..."></td>
+          <td><label for="apellido_1">Apellido Paterno</label></td>
+          <td><input type="text" class="apellido_1" id="apellido_1" name="apellido_1" placeholder="Apellido Paterno..."></td>
         </tr>
 
         <tr>
-          <td><label>Apellido Materno</label></td>
-          <td><input type="text" name="apellidoMaterno" placeholder="Apellido Materno..."></td>
+          <td><label for="apellido_2">Apellido Materno</label></td>
+          <td><input type="text"  name="apellido_2" placeholder="Apellido Materno..."></td>
         </tr>
 
         <tr>
-          <td><label>Nombre de Usuario</label></td>
+          <td><label for="usuario">Nombre de Usuario</label></td>
           <td><input type="text" name="usuario" placeholder="Usuario..."></td>
         </tr>
 
         <tr>
-          <td><label>Correo</label></td>
+          <td><label for="correo">Correo</label></td>
           <td><input type="text" name="correo" placeholder="Correo..."></td>
         </tr>
 
         <tr>
-          <td><label>Contraseña</label></td>
-          <td><input type="text" data-role="calendarpicker" placeholder="Contraseña..."></td>
+          <td><label for="contrasena">Contraseña</label></td>
+          <td><input type="password" name="contrasena" placeholder="Contraseña..."></td>
         </tr>
-
-        <tr>
-          <td class="boton-pg4"><a type="submit" class="btnCancelar" href="#">CANCELAR</a></td>
-          <td class="boton-pg4"> <a type="submit" class="btnAceptar" href="#">ACEPTAR</a></td>
-        </tr>
-
       </table>
 
+      <div class="Botones_adicionales botones_registrar">
+          <input type="submit" class="btnCancelar boton-pg4" value = "CANCELAR">
+          <input type="submit" class="btnAceptar  boton-pg4" value = "ACEPTAR">
+      </div>
 
       <div class="Botones_adicionales">
         <input class="btnLimpiar" id="boton_limpiar" type="reset" value="Limpiar">
@@ -67,9 +62,6 @@
 
     </form>
   </div>
-
-
-    
 
 
 </body>

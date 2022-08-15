@@ -142,6 +142,19 @@ td {
     margin: 20px auto;
   }
 
+  .Link_rcuenta{
+    border: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-right: 70px;
+    text-decoration: none;
+    cursor:pointer;
+    color: #243A73;
+    background-color: #BECADB; 
+}
+
   /* SECCIÓN REGISTRARSE */
 
   .container1-pg4{
@@ -149,11 +162,12 @@ td {
     width: 53%;
     height: 630px;
     margin: 20px auto 20px auto;
+    padding-bottom: 20px;
   }
 
   .boton-pg4 {
-    padding-top: 30px;
-    padding-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   table {
@@ -169,6 +183,10 @@ td {
     margin-bottom: 10px;
   }
 
+  .botones_registrar {
+    margin: 50px 0 20px 0;
+    text-align: center;
+  }
   /* SECCIÓN SERVICIOS */
 
   .container1-pg5 {
@@ -280,8 +298,7 @@ td {
     background: #6998ab;
     padding: 10px 25px 10px 25px;
     text-decoration: none;
-    margin-left: 245px;
-    margin-top: 50px;
+
   }
 
   .btnAceptar:hover{
@@ -336,11 +353,6 @@ td {
     color: #243A73;
     background-color: #BECADB;
 }
-.Botones_adicionales{
-    float: left;
-}
-#boton_limpiar{
-    float: left;
-    color: #243A73;
-    background-color: #BECADB;
-}
+
+
+
