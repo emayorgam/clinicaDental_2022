@@ -8,34 +8,41 @@
 </head>
 
 <body>
-    <h1>Clinica Especialidades</h1>
-    <div class="container">
-        <form action="enviar_contra.php" method="POST">
 
-            <div class="elementoA">
-                <label for="usuario">Recuperar Contraseña</label>
-                <input type="text" name="usuario" value="" placeholder="Usuario" />
-            </div>
+<div>
+    <h1>Recuperar contraseña</h1>
 
-            <div class="elementoA">
-                <input type="text" name="contra" value="" placeholder="Nueva contraseña" />
-            </div>
+    <div class="container1-pg3">
+      <form action="enviar_contra.php" method="POST">
 
-            <div class="elemento" id="ingreso">
-                <input id="ingresar" type="submit" value="Cambiar">
-            </div>
-        
-            <div class="Botones_adicionales">
-                <br>
-                <input id="boton_limpiar" type="reset" value="Limpiar">
-                <br>
-                <a href="login.php" id="Link_rcuenta" style="text-decoration: none;">LogIn</a>
-                <br>
-                <p class="login-register-text">No tiene cuenta? <a href="registro.php">Ingrese aqui</a>.</p>
-                <br>
-            </div>
-        </form>
+        <label class="label-pg3" for="usuario">Usuario</label>
+        <input class="input-pg3" type="text" name="usuario" id="usuario" required="true" placeholder="Usuario...">
+
+        <label class="label-pg3" for="contrasena">Nueva contraseña</label>
+        <input class="input-pg3" type="password" name="contra" id="contrasena" required="true" placeholder="Nueva contraseña...">
+
+
+        <div class="elemento" id="ingreso">
+          <input id="ingresar" class="btnIngresar" type="submit" value="CAMBIAR">
+        </div>
+
+        <div class="Botones_adicionales">
+          <input  type="reset" value="Limpiar">
+          <br>
+          <a href="login.php" id="Link_rcuenta" style="text-decoration: none;">LogIn</a>
+        </div>
+
+      </form>
     </div>
+
+    <div class="container2-pg3">
+      <p>No tiene cuenta? <a href="registro.php">Ingrese aquí</a>.</p>
+    </div>
+  </div>
+
+
+
+
 
     <?php
     try {

@@ -100,9 +100,9 @@ td {
   padding-top: 50px;
 }
 
-  /* SECCIÓN INICIAR SESIÓN*/
+  /* SECCIÓN INICIAR SESIÓN + RECUPERAR CONSTRASENA*/
 
-  .container1-pg3 {
+  .container1-pg3 , .container1-pg8 {
     background-color:   #bdcadb;
     width: 30%;
     height: 450px;
@@ -110,7 +110,7 @@ td {
     text-align: center;
   }
 
-  .container2-pg3 {
+  .container2-pg3, .container2-pg8 {
     background-color:  #bdcadb;
     width: 30%;
     height: 50px;
@@ -129,7 +129,7 @@ td {
     margin-top: 70px;
   }
 
-  .label-pg3 {
+  .label-pg3{
     padding: 25px;
   }
 
@@ -264,6 +264,12 @@ td {
     padding: 10px 30px;
 
   }
+
+/* RECUPERAR CONTRASENA*/
+
+
+
+
 
   /* BOTONES */
 
