@@ -96,7 +96,7 @@
 
             <tr>
               <td><label>FECHA</label></td>
-              <td><input type="text" id="datepicker" placeholder="DD-MM-YYYY"></td>
+              <td><input type="text" id="datepicker" placeholder="DD/MM/YYYY"></td>
             </tr>
 
             <tr>
@@ -198,6 +198,9 @@
 <!-- jQuery calendario-->
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+<script src="../js/ui.datepicker-es.js"></script>
+
 
 
 
