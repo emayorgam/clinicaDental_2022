@@ -5,6 +5,11 @@
   <meta charset="utf-8">
   <title>Clinica Especialidades</title>
 
+  
+<!-- CSS Stylesheets -->
+<link rel="stylesheet" href="../css/styles.css">
+
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,12 +17,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;500&family=Montserrat:wght@300;400;500&family=Cormorant+Garamond:wght@300;400;900;&display=swap" rel="stylesheet">
 
-<!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="../css/styles.css">
-
 <!-- CSS Stylesheets for calendar -->
 <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
 
 <!-- CSS Stylesheets for timepicker -->
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
@@ -46,7 +47,7 @@
 
   <div class="container2-pg1">
     <h1 class="pg1-titulo">Clínica Especialidades</h1>
-    <img src="../css/imagenes/logo.png" alt="logo"> 
+    <i class="fa-solid fa-tooth"></i>
   </div>
 
   <div class="container3-pg1">
@@ -163,7 +164,7 @@
         <h1>UBICACIÓN</h1>
         <p class="datosUbicacion">Centro Comercial Plaza Heredia, Heredia, Costa Rica</p>
         <div class= "imagenUbicacion" >
-        <img src="../css/imagenes/mapa.png" alt="mapa">
+        <img src="../css/imagenes/heredia.png" alt="mapa">
         </div>
     </div>
 

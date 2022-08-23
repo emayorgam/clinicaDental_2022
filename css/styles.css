@@ -70,7 +70,7 @@ img {
 .container1-pg2{
   background-color: #bdcadb;
   width: 53%;
-  height: 600px;
+  height: 550px;
   margin: 20px auto 70px auto;
 }
 
@@ -234,6 +234,10 @@ td {
 
   /* SECCIÓN UBICACIÓN */
 
+  .container1-pg6{
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
   .datosUbicacion {
     margin: 50px;
     font-size: 150%;
@@ -264,11 +268,6 @@ td {
     padding: 10px 30px;
 
   }
-
-/* RECUPERAR CONTRASENA*/
-
-
-
 
 
   /* BOTONES */
